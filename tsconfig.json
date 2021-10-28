@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outFile": "./bin/js/game.mix.js",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "lib":["dom", "es2015"]
+
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
